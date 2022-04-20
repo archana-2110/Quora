@@ -1,0 +1,20 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1>My Quora </h1>
+        <hr></hr>
+        <h2 style="color:rgb(62, 6, 95);font-size: 30px;">App status</h2>
+        <p style="color:rgb(62, 6, 95);font-size: 25px;">App has the following record counts:</p>
+        <ul>
+          <li style="color:rgb(62, 6, 95);font-size: 25px;font-style: serif;"><strong>Authors:</strong> {{ num_authors }}</li>
+          <li style="color:rgb(62, 6, 95);font-size: 25px;"><strong>Questions:</strong> {{ num_questions }}</li>
+          <li style="color:rgb(62, 6, 95);font-size: 25px;"><strong>Answers:</strong> {{ num_answers }}</li>
+          <li style="color:rgb(62, 6, 95);font-size: 25px;"><strong>Comments:</strong> {{ num_comments }}</li>
+        </ul>
+     </div>
+    </div>
+
+  
+{% endblock %}

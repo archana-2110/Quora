@@ -1,0 +1,27 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 20px;
+    list-style: none;
+    
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(62, 44, 65);
+    color: rgb(110, 133, 178);
+    text-align: center;
+ }
+ 
+ .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
